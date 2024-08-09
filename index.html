@@ -57,102 +57,47 @@
             transform: translateY(-2px);
         }
 
-        .quiz-submenu {
-            display: none;
-            margin-left: 20px;
+        .credentials {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #6c757d;
         }
-
-        .quiz-submenu .quiz-button {
-            background-color: #e9ecef;
-        }
-
-        .back-button {
-            background-color: #6c757d;
-            color: white;
-        }
-
-        #login-section {
-            margin-bottom: 20px;
-        }
-
-        #login-section input {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #e9ecef;
-            border-radius: 5px;
-        }
-
-        #user-display {
-            margin-bottom: 20px;
-            font-weight: bold;
-        }
-
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>EAO MATHS HEHEHEH</h1>
-
+        <h1>EAO MATHS</h1>
         
         <div id="main-menu">
-            <button class="quiz-button" onclick="showSubmenu('math')">Mathematics</button>
-            <button class="quiz-button" onclick="showSubmenu('science')">Science</button>
-            <button class="quiz-button" onclick="showSubmenu('other')">Other Subjects</button>
-        </div>
-        <div id="math-submenu" class="quiz-submenu">
             <button class="quiz-button" onclick="startQuiz('savoir_ses_tables.json')">Savoir ses tables</button>
-            <button class="quiz-button" onclick="startQuiz('geometry_savoir_deduire.json')">Geometry Savoir déduire</button>
-            <button class="quiz-button back-button" onclick="showMainMenu()">Back to Main Menu</button>
         </div>
-        <div id="science-submenu" class="quiz-submenu">
-            <button class="quiz-button" onclick="startQuiz('physique_premiere.json')">Physique Première</button>
-            <button class="quiz-button" onclick="startQuiz('chimie_seconde.json')">Chimie Seconde</button>
-            <button class="quiz-button back-button" onclick="showMainMenu()">Back to Main Menu</button>
-        </div>
-        <div id="other-submenu" class="quiz-submenu">
-            <!-- Add other subject quizzes here -->
-            <button class="quiz-button back-button" onclick="showMainMenu()">Back to Main Menu</button>
+
+        <div class="credentials">
+            <p>Mathilde, Laurent, Pierre-Louis Gaultier</p>
         </div>
     </div>
 
     <script>
-        function showSubmenu(subject) {
-            document.getElementById('main-menu').style.display = 'none';
-            document.getElementById(`${subject}-submenu`).style.display = 'block';
-        }
-
-        function showMainMenu() {
-            document.querySelectorAll('.quiz-submenu').forEach(submenu => {
-                submenu.style.display = 'none';
-            });
-            document.getElementById('main-menu').style.display = 'block';
-        }
-
         function startQuiz(jsonFile) {
-            // Your existing startQuiz function
             window.location.href = `quiz.html?quiz=${jsonFile}`;
         }
 
         function updateQuizButtons() {
-        const quizButtons = document.querySelectorAll('.quiz-button[onclick^="startQuiz"]');
-        quizButtons.forEach(button => {
-            const quizName = button.getAttribute('onclick').match(/'(.+?)'/)[1];
-            const score = localStorage.getItem(quizName);
-            if (score === '20') {
-                button.style.backgroundColor = '#28a745'; // Green
-                button.style.color = 'white';
-            } else if (score !== null) {
-                button.style.backgroundColor = '#ffc107'; // Yellow
-                button.style.color = 'black';
-            }
+            const quizButtons = document.querySelectorAll('.quiz-button[onclick^="startQuiz"]');
+            quizButtons.forEach(button => {
+                const quizName = button.getAttribute('onclick').match(/'(.+?)'/)[1];
+                const score = localStorage.getItem(quizName);
+                if (score === '20') {
+                    button.style.backgroundColor = '#28a745'; // Green
+                    button.style.color = 'white';
+                } else if (score !== null) {
+                    button.style.backgroundColor = '#ffc107'; // Yellow
+                    button.style.color = 'black';
+                }
             });
         }
 
-    // Call this function when the page loads
-    window.addEventListener('load', updateQuizButtons);
-    
+        window.addEventListener('load', updateQuizButtons);
     </script>
     <script src="quiz.js"></script>
 </body>
