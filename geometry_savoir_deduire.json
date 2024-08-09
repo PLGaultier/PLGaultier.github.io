@@ -1,0 +1,124 @@
+{
+  "geometry_questions": [
+    {
+      "id": "q1",
+      "type": "direct_input",
+      "question_text": "Si deux droites sont parallèles à une même droite, alors elles sont .......... entre elles.",
+      "correct_answer": "parallèles"
+    },
+    {
+      "id": "q2",
+      "type": "direct_input",
+      "question_text": "Si un parallélogramme a ses deux côtés consécutifs de même longueur, alors ce parallélogramme est un ...........",
+      "correct_answer": "losange"
+    },
+    {
+      "id": "q3",
+      "type": "direct_input",
+      "question_text": "Si deux droites sont parallèles, alors toute perpendiculaire à l'une est ........... à l'autre.",
+      "correct_answer": "perpendiculaire"
+    },
+    {
+      "id": "q4",
+      "type": "direct_input",
+      "question_text": "Si un parallèlogramme a ses diagonales perpendiculaires, alors ce parallélogramme est un ...........",
+      "correct_answer": "losange"
+    },
+    {
+      "id": "q5",
+      "type": "direct_input",
+      "question_text": "Si un quadrilatère a quatre angles droits, alors ce quadrilatère est un ...........",
+      "correct_answer": "rectangle"
+    },
+    {
+      "id": "q6",
+      "type": "direct_input",
+      "question_text": "Si dans un triangle la somme des deux angles aigus est égale à 90°, alors ce triangle est un ...........",
+      "correct_answer": "rectangle"
+    },
+    {
+      "id": "q7",
+      "type": "direct_input",
+      "question_text": "Si deux angles sont déterminés par des droites parallèles et une sécante et s'ils sont situés entre les parallèles et de part et d'autre de la sécante, alors ces angles sont ...........",
+      "correct_answer": "alternes-internes"
+    },
+    {
+      "id": "q8",
+      "type": "direct_input",
+      "question_text": "Si deux angles correspondants sont déterminés par des droites parallèles et une sécante, alors ils sont ...........",
+      "correct_answer": "égaux"
+    },
+    {
+      "id": "q9",
+      "type": "direct_input",
+      "question_text": "Si une droite est axe de symétrie d'un angle, alors cette droite est la ........... de cet angle.",
+      "correct_answer": "bissectrice"
+    },
+    {
+      "id": "q10",
+      "type": "direct_input",
+      "question_text": "Si deux droites déterminent avec une sécante des angles alternes-externes égaux, alors elles sont ...........",
+      "correct_answer": "parallèles"
+    },
+    {
+      "id": "q11",
+      "type": "direct_input",
+      "question_text": "Si un triangle a deux côtés perpendiculaires, alors ce triangle est ...........",
+      "correct_answer": "rectangle"
+    },
+    {
+      "id": "q12",
+      "type": "direct_input",
+      "question_text": "Si un quadrilatère est à la fois un rectangle et un losange, alors ce quadrilatère est ...........",
+      "correct_answer": "carré"
+    },
+    {
+      "id": "q13",
+      "type": "direct_input",
+      "question_text": "Si un quadrilatère a ses côtés opposés parallèles et ses diagonales perpendiculaires, alors ce quadrilatère est ...........",
+      "correct_answer": "losange"
+    },
+    {
+      "id": "q14",
+      "type": "direct_input",
+      "question_text": "Si deux angles sont déterminés par des droites parallèles et une sécante et s'ils sont situés l'un entre les parallèles et l'autre à l'extérieur des parallèles et d'un même côté de la sécante, alors ces angles sont ...........",
+      "correct_answer": "correspondants"
+    },
+    {
+      "id": "q15",
+      "type": "direct_input",
+      "question_text": "Si deux points sont équidistants des extrémités d'un segment, alors ces deux points déterminent la droite ............. de ce segment",
+      "correct_answer": "médiatrice"
+    },
+    {
+      "id": "q16",
+      "type": "direct_input",
+      "question_text": "Si deux droites déterminent avec une sécante des angles alternes-internes égaux, alors elles sont ..............",
+      "correct_answer": "parallèles"
+    },
+    {
+      "id": "q17",
+      "type": "direct_input",
+      "question_text": "Si une droite est perpendiculaire à un segment en son milieu, alors cette droite est la ............. de ce segment",
+      "correct_answer": "médiatrice"
+    },
+    {
+      "id": "q18",
+      "type": "direct_input",
+      "question_text": "Si dans un quadrilatère les angles consécutifs sont supplémentaires, alors ce quadrilatère est .............",
+      "correct_answer": "parallèlogramme"
+    },
+    {
+      "id": "q19",
+      "type": "direct_input",
+      "question_text": "Si un triangle a deux angles de 60°, alors ce triangle est ...............",
+      "correct_answer": "équilatéral"
+    },
+    {
+      "id": "q20",
+      "type": "direct_input",
+      "question_text": "Si un quadrilatère a ses diagonales de même longueur et ses angles consécutifs supplémentaires, alors ce quadrilatère est un ...............",
+      "correct_answer": "rectangle"
+    }
+  ]
+}

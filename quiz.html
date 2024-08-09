@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Quiz</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .quiz-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        #questionNumber {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        #questionImage {
+            max-width: 100%;
+            width: auto;
+            height: auto;
+            max-height: 80vh; /* Limit height to 70% of the viewport height */
+            object-fit: contain;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            cursor: pointer; /* Indicates the image is clickable */
+            transition: transform 0.3s ease;
+        }
+
+        #questionImage:hover {
+            transform: scale(1.5);
+        }
+
+
+        #questionText {
+            font-size: 1.1em;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        #options button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            background-color: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1em;
+            color: #495057;
+            text-align: left;
+        }
+
+        #options button:hover {
+            background-color: #e9ecef;
+            transform: translateY(-2px);
+        }
+
+        #options button.selected {
+            background-color: #4CAF50;
+            color: white;
+            border-color: #4CAF50;
+        }
+
+        #directInput {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            font-size: 1em;
+            box-sizing: border-box;
+        }
+
+        #submit {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        #submit:hover {
+            background-color: #0056b3;
+        }
+
+        #result {
+            font-size: 1.1em;
+            font-weight: 500;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        #score {
+            font-size: 1.2em;
+            font-weight: 500;
+            color: #007bff;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+    .quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+
+    #timer, #score {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #007bff;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h2 id="questionNumber"></h2>
+        <img id="questionImage" style="display: none;">
+        <p id="questionText" style="display: none;"></p>
+        <div id="options"></div>
+        <p id="result"></p>
+        <button id="submit" onclick="submitAnswer()">Submit</button>
+        
+
+        <div class="quiz-header">
+            <div id="timer">Time: 00:00</div>
+            <div id="score">Score: 20</div>
+        </div>
+
+    </div>
+
+    <script src="quiz.js"></script>
+
+  
+
+</body>
+</html>

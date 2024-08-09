@@ -1,0 +1,50 @@
+{
+  "chimie_seconde": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "image_url": "/images/changement07.jpg",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A"
+        },
+        {
+          "id": "b",
+          "text": "Option B"
+        },
+        {
+          "id": "c",
+          "text": "Option C"
+        }
+      ],
+      "correct_answers": ["a", "c"]
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "image_url": "/images/changement08.jpg",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A"
+        },
+        {
+          "id": "b",
+          "text": "Option B"
+        },
+        {
+          "id": "c",
+          "text": "Option C"
+        }
+      ],
+      "correct_answers": ["b"]
+    },
+    {
+      "id": "q3",
+      "type": "direct_input",
+      "question_text": "3 - 7 =",
+      "correct_answer": "-4"
+    }
+  ]
+}

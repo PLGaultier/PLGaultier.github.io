@@ -1,0 +1,727 @@
+ 
+ {
+  "savoir_ses_tables": [
+  
+    {
+      "id": "q1",
+      "type": "direct_input",
+      "question_text": "6 x 7 =",
+      "correct_answer": "42"
+    },
+    {
+      "id": "q2",
+      "type": "direct_input",
+      "question_text": "7 + 6 =",
+      "correct_answer": "13"
+    },
+    {
+      "id": "q3",
+      "type": "direct_input",
+      "question_text": "12 - 7 =",
+      "correct_answer": "5"
+    },
+    {
+      "id": "q4",
+      "type": "direct_input",
+      "question_text": "6 + 9 =",
+      "correct_answer": "15"
+    },
+    {
+      "id": "q5",
+      "type": "direct_input",
+      "question_text": "72 : 9 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q6",
+      "type": "direct_input",
+      "question_text": "6 : 1 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q7",
+      "type": "direct_input",
+      "question_text": "6 + 6 =",
+      "correct_answer": "12"
+    },
+    {
+      "id": "q8",
+      "type": "direct_input",
+      "question_text": "48 : 6 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q9",
+      "type": "direct_input",
+      "question_text": "0 : 7 =",
+      "correct_answer": "0"
+    },
+    {
+      "id": "q10",
+      "type": "direct_input",
+      "question_text": "72 : 9 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q11",
+      "type": "direct_input",
+      "question_text": "42 : 6 =",
+      "correct_answer": "7"
+    },
+    {
+      "id": "q12",
+      "type": "direct_input",
+      "question_text": "11 - 7 =",
+      "correct_answer": "4"
+    },
+    {
+      "id": "q13",
+      "type": "direct_input",
+      "question_text": "11 - 8 =",
+      "correct_answer": "3"
+    },
+    {
+      "id": "q14",
+      "type": "direct_input",
+      "question_text": "10 - 4 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q15",
+      "type": "direct_input",
+      "question_text": "9 + 5 =",
+      "correct_answer": "14"
+    },
+    {
+      "id": "q16",
+      "type": "direct_input",
+      "question_text": "8 x 8 =",
+      "correct_answer": "64"
+    },
+    {
+      "id": "q17",
+      "type": "direct_input",
+      "question_text": "54 : 9 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q18",
+      "type": "direct_input",
+      "question_text": "11 - 9 =",
+      "correct_answer": "2"
+    },
+    {
+      "id": "q19",
+      "type": "direct_input",
+      "question_text": "6 x 8 =",
+      "correct_answer": "48"
+    },
+    {
+      "id": "q20",
+      "type": "direct_input",
+      "question_text": "9 + 9 =",
+      "correct_answer": "18"
+    },
+    {
+      "id": "q21",
+      "type": "direct_input",
+      "question_text": "17 - 9 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q22",
+      "type": "direct_input",
+      "question_text": "7 + 5 =",
+      "correct_answer": "12"
+    },
+    {
+      "id": "q23",
+      "type": "direct_input",
+      "question_text": "7 x 0 =",
+      "correct_answer": "0"
+    },
+    {
+      "id": "q24",
+      "type": "direct_input",
+      "question_text": "12 - 3 =",
+      "correct_answer": "9"
+    },
+    {
+      "id": "q25",
+      "type": "direct_input",
+      "question_text": "9 + 6 =",
+      "correct_answer": "15"
+    },
+    {
+      "id": "q26",
+      "type": "direct_input",
+      "question_text": "11 - 4 =",
+      "correct_answer": "7"
+    },
+    {
+      "id": "q27",
+      "type": "direct_input",
+      "question_text": "0 : 7 =",
+      "correct_answer": "0"
+    },
+    {
+      "id": "q28",
+      "type": "direct_input",
+      "question_text": "11 - 6 =",
+      "correct_answer": "5"
+    },
+    {
+      "id": "q29",
+      "type": "direct_input",
+      "question_text": "56 : 7 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q30",
+      "type": "direct_input",
+      "question_text": "18 - 6 =",
+      "correct_answer": "12"
+    },
+    {
+      "id": "q31",
+      "type": "direct_input",
+      "question_text": "9 + 8 =",
+      "correct_answer": "17"
+    },
+    {
+      "id": "q32",
+      "type": "direct_input",
+      "question_text": "9 x 9 =",
+      "correct_answer": "81"
+    },
+    {
+      "id": "q33",
+      "type": "direct_input",
+      "question_text": "14 - 6 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q34",
+      "type": "direct_input",
+      "question_text": "13 - 5 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q35",
+      "type": "direct_input",
+      "question_text": "16 - 8 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q36",
+      "type": "direct_input",
+      "question_text": "6 + 5 =",
+      "correct_answer": "11"
+    },
+    {
+      "id": "q37",
+      "type": "direct_input",
+      "question_text": "6 + 8 =",
+      "correct_answer": "14"
+    },
+    {
+      "id": "q38",
+      "type": "direct_input",
+      "question_text": "11 - 3 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q39",
+      "type": "direct_input",
+      "question_text": "0 : 9 =",
+      "correct_answer": "0"
+    },
+    {
+      "id": "q40",
+      "type": "direct_input",
+      "question_text": "13 - 8 =",
+      "correct_answer": "5"
+    },
+    {
+      "id": "q41",
+      "type": "direct_input",
+      "question_text": "14 - 7 =",
+      "correct_answer": "7"
+    },
+    {
+      "id": "q42",
+      "type": "direct_input",
+      "question_text": "6 x 6 =",
+      "correct_answer": "36"
+    },
+    {
+      "id": "q43",
+      "type": "direct_input",
+      "question_text": "15 - 6 =",
+      "correct_answer": "9"
+    },
+    {
+      "id": "q44",
+      "type": "direct_input",
+      "question_text": "0 : 8 =",
+      "correct_answer": "0"
+    },
+    {
+      "id": "q45",
+      "type": "direct_input",
+      "question_text": "15 - 9 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q46",
+      "type": "direct_input",
+      "question_text": "16 - 7 =",
+      "correct_answer": "9"
+    },
+    {
+      "id": "q47",
+      "type": "direct_input",
+      "question_text": "16 - 9 =",
+      "correct_answer": "7"
+    },
+    {
+      "id": "q48",
+      "type": "direct_input",
+      "question_text": "8 + 7 =",
+      "correct_answer": "15"
+    },
+    {
+      "id": "q49",
+      "type": "direct_input",
+      "question_text": "49 : 7 =",
+      "correct_answer": "7"
+    },
+    {
+      "id": "q50",
+      "type": "direct_input",
+      "question_text": "10 - 7 =",
+      "correct_answer": "3"
+    },
+    {
+      "id": "q51",
+      "type": "direct_input",
+      "question_text": "7 x 9 =",
+      "correct_answer": "63"
+    },
+    {
+      "id": "q52",
+      "type": "direct_input",
+      "question_text": "63 : 7 =",
+      "correct_answer": "9"
+    },
+    {
+      "id": "q53",
+      "type": "direct_input",
+      "question_text": "36 : 6 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q54",
+      "type": "direct_input",
+      "question_text": "16 - 8 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q55",
+      "type": "direct_input",
+      "question_text": "48 : 8 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q56",
+      "type": "direct_input",
+      "question_text": "54 : 6 =",
+      "correct_answer": "9"
+    },
+    {
+      "id": "q57",
+      "type": "direct_input",
+      "question_text": "12 - 8 =",
+      "correct_answer": "4"
+    },
+    {
+      "id": "q58",
+      "type": "direct_input",
+      "question_text": "7 + 7 =",
+      "correct_answer": "14"
+    },
+    {
+      "id": "q59",
+      "type": "direct_input",
+      "question_text": "18 - 8 =",
+      "correct_answer": "10"
+    },
+    {
+      "id": "q60",
+      "type": "direct_input",
+      "question_text": "9 + 7 =",
+      "correct_answer": "16"
+    },
+    {
+      "id": "q61",
+      "type": "direct_input",
+      "question_text": "8 + 6 =",
+      "correct_answer": "14"
+    },
+    {
+      "id": "q62",
+      "type": "direct_input",
+      "question_text": "8 x 0 =",
+      "correct_answer": "0"
+    },
+    {
+      "id": "q63",
+      "type": "direct_input",
+      "question_text": "15 - 8 =",
+      "correct_answer": "7"
+    },
+    {
+      "id": "q64",
+      "type": "direct_input",
+      "question_text": "48 : 6 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q65",
+      "type": "direct_input",
+      "question_text": "14 - 5 =",
+      "correct_answer": "9"
+    },
+    {
+      "id": "q66",
+      "type": "direct_input",
+      "question_text": "8 x 6 =",
+      "correct_answer": "48"
+    },
+    {
+      "id": "q67",
+      "type": "direct_input",
+      "question_text": "13 - 9 =",
+      "correct_answer": "4"
+    },
+    {
+      "id": "q68",
+      "type": "direct_input",
+      "question_text": "12 - 5 =",
+      "correct_answer": "7"
+    },
+    {
+      "id": "q69",
+      "type": "direct_input",
+      "question_text": "6 + 8 =",
+      "correct_answer": "14"
+    },
+    {
+      "id": "q70",
+      "type": "direct_input",
+      "question_text": "9 - 6 =",
+      "correct_answer": "3"
+    },
+    {
+      "id": "q71",
+      "type": "direct_input",
+      "question_text": "7 + 6 =",
+      "correct_answer": "13"
+    },
+    {
+      "id": "q72",
+      "type": "direct_input",
+      "question_text": "10 + 5 =",
+      "correct_answer": "15"
+    },
+    {
+      "id": "q73",
+      "type": "direct_input",
+      "question_text": "13 - 4 =",
+      "correct_answer": "9"
+    },
+    {
+      "id": "q74",
+      "type": "direct_input",
+      "question_text": "48 : 6 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q75",
+      "type": "direct_input",
+      "question_text": "10 - 3 =",
+      "correct_answer": "7"
+    },
+    {
+      "id": "q76",
+      "type": "direct_input",
+      "question_text": "13 - 7 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q77",
+      "type": "direct_input",
+      "question_text": "6 + 5 =",
+      "correct_answer": "11"
+    },
+    {
+      "id": "q78",
+      "type": "direct_input",
+      "question_text": "11 - 2 =",
+      "correct_answer": "9"
+    },
+
+    {
+      "id": "q79",
+      "type": "direct_input",
+      "question_text": "14 - 8 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q80",
+      "type": "direct_input",
+      "question_text": "12 - 9 =",
+      "correct_answer": "3"
+    },
+    {
+      "id": "q81",
+      "type": "direct_input",
+      "question_text": "8 - 1 =",
+      "correct_answer": "7"
+    },
+    {
+      "id": "q82",
+      "type": "direct_input",
+      "question_text": "7 + 8 =",
+      "correct_answer": "15"
+    },
+    {
+      "id": "q83",
+      "type": "direct_input",
+      "question_text": "8 + 9 =",
+      "correct_answer": "17"
+    },
+    {
+      "id": "q84",
+      "type": "direct_input",
+      "question_text": "8 x 8 =",
+      "correct_answer": "64"
+    },
+    {
+      "id": "q85",
+      "type": "direct_input",
+      "question_text": "63 : 9 =",
+      "correct_answer": "7"
+    },
+    {
+      "id": "q86",
+      "type": "direct_input",
+      "question_text": "64 : 8 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q87",
+      "type": "direct_input",
+      "question_text": "10 - 6 =",
+      "correct_answer": "4"
+    },
+    {
+      "id": "q88",
+      "type": "direct_input",
+      "question_text": "9 - 7 =",
+      "correct_answer": "2"
+    },
+    {
+      "id": "q89",
+      "type": "direct_input",
+      "question_text": "6 - 6 =",
+      "correct_answer": "0"
+    },
+    {
+      "id": "q90",
+      "type": "direct_input",
+      "question_text": "9 + 9 =",
+      "correct_answer": "18"
+    },
+    {
+      "id": "q91",
+      "type": "direct_input",
+      "question_text": "7 + 9 =",
+      "correct_answer": "16"
+    },
+    {
+      "id": "q92",
+      "type": "direct_input",
+      "question_text": "15 - 7 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q93",
+      "type": "direct_input",
+      "question_text": "11 - 5 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q94",
+      "type": "direct_input",
+      "question_text": "6 + 9 =",
+      "correct_answer": "15"
+    },
+    {
+      "id": "q95",
+      "type": "direct_input",
+      "question_text": "7 + 8 =",
+      "correct_answer": "15"
+    },
+    {
+      "id": "q96",
+      "type": "direct_input",
+      "question_text": "63 : 9 =",
+      "correct_answer": "7"
+    },
+    {
+      "id": "q97",
+      "type": "direct_input",
+      "question_text": "8 - 5 =",
+      "correct_answer": "3"
+    },
+    {
+      "id": "q98",
+      "type": "direct_input",
+      "question_text": "9 - 8 =",
+      "correct_answer": "1"
+    },
+    {
+      "id": "q99",
+      "type": "direct_input",
+      "question_text": "9 + 7 =",
+      "correct_answer": "16"
+    },
+    {
+      "id": "q100",
+      "type": "direct_input",
+      "question_text": "81 : 9 =",
+      "correct_answer": "9"
+    },
+    {
+      "id": "q101",
+      "type": "direct_input",
+      "question_text": "7 + 8 =",
+      "correct_answer": "15"
+    },
+    {
+      "id": "q102",
+      "type": "direct_input",
+      "question_text": "12 - 6 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q103",
+      "type": "direct_input",
+      "question_text": "12 - 4 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q104",
+      "type": "direct_input",
+      "question_text": "7 + 7 =",
+      "correct_answer": "14"
+    },
+    {
+      "id": "q105",
+      "type": "direct_input",
+      "question_text": "54 : 9 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q106",
+      "type": "direct_input",
+      "question_text": "13 - 6 =",
+      "correct_answer": "7"
+    },
+    {
+      "id": "q107",
+      "type": "direct_input",
+      "question_text": "14 - 9 =",
+      "correct_answer": "5"
+    },
+    {
+      "id": "q108",
+      "type": "direct_input",
+      "question_text": "14 + 10 =",
+      "correct_answer": "24"
+    },
+    {
+      "id": "q109",
+      "type": "direct_input",
+      "question_text": "42 : 7 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q110",
+      "type": "direct_input",
+      "question_text": "72 : 8 =",
+      "correct_answer": "9"
+    },
+    {
+      "id": "q111",
+      "type": "direct_input",
+      "question_text": "0 - 5 =",
+      "correct_answer": "-5"
+    },
+    {
+      "id": "q112",
+      "type": "direct_input",
+      "question_text": "56 : 8 =",
+      "correct_answer": "7"
+    },
+    {
+      "id": "q113",
+      "type": "direct_input",
+      "question_text": "8 + 9 =",
+      "correct_answer": "17"
+    },
+    {
+      "id": "q114",
+      "type": "direct_input",
+      "question_text": "6 - 0 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q115",
+      "type": "direct_input",
+      "question_text": "17 + 8 =",
+      "correct_answer": "25"
+    },
+    {
+      "id": "q116",
+      "type": "direct_input",
+      "question_text": "48 : 8 =",
+      "correct_answer": "6"
+    },
+    {
+      "id": "q117",
+      "type": "direct_input",
+      "question_text": "0 - 8 =",
+      "correct_answer": "-8"
+    },
+    {
+      "id": "q118",
+      "type": "direct_input",
+      "question_text": "56 : 7 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q119",
+      "type": "direct_input",
+      "question_text": "48 : 6 =",
+      "correct_answer": "8"
+    },
+    {
+      "id": "q120",
+      "type": "direct_input",
+      "question_text": "56 : 8 =",
+      "correct_answer": "7"
+    }
+  ]
+}

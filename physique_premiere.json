@@ -1,0 +1,10 @@
+{
+  "physique_premiere": [
+    {
+      "id": "q1",
+      "type": "direct_input",
+      "question_text": "3 - 7 =",
+      "correct_answer": "-4"
+    }
+  ]
+}
