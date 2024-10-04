@@ -94,7 +94,7 @@ function submitAnswer() {
         resultElement.textContent = "Correct!";
         resultElement.style.color = "green";
     } else {
-        resultElement.textContent = "Incorrect. The correct answer was: " + 
+        resultElement.textContent = "Faux. La bonne réponse est: " + 
             (question.type === 'multiple_choice' ? question.correct_answers.join(", ") : question.correct_answer);
         resultElement.style.color = "red";
         score = Math.max(0, score - 4);
